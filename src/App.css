@@ -19,6 +19,25 @@
   margin-top: 15px;
 }
 
+.page__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.page {
+  margin: 10px;
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.page__current {
+  border: 3px solid orange;
+  font-weight: bold;
+}
+
 .post-enter {
   transform: translateX(-350px);
 }
